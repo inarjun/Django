@@ -1,0 +1,24 @@
+# Some commands ##########################################
+
+python --version
+cd .\desktop\
+mkdir Django
+cd .\desktp\
+dir
+ls
+python -m venv venv
+cd .\venv\
+dir
+set-executionpolicy remotesigned
+.\scripts\activate
+pip install django
+django-admin --version
+
+#######################################################
+
+django-admin startproject myproject
+cd myproject
+python manage.py startapp myapp
+python manage.py runserver
+
+#############################################################
